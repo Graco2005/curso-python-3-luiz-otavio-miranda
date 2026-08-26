@@ -1,18 +1,18 @@
 """
 Exercícios
-Crie funções que duplicam, triplicam e qusruplicam
+Crie funções que duplicam, triplicam e quadruplicam
 o número recebido como parâmetro
 """
 
-def criar_multiplicador(multiplicador):
+def multiplicando(multiplicador):
     def multiplicar(numero):
-        return numero * multiplicador
+        return f'Multiplicador x{multiplicador} x {numero} = {multiplicador * numero}'
     return multiplicar
 
-duplicar = criar_multiplicador(2)
-triplicar = criar_multiplicador(3)
-quadruplicar = criar_multiplicador(4)
+duplicar = multiplicando(2)
+triplicar = multiplicando(3)
+quadruplicar = multiplicando(4)
 
 print(duplicar(10))
 print(triplicar(3))
-print(quadruplicar(40))
+print(quadruplicar(100))
