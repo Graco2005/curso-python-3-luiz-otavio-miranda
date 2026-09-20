@@ -29,4 +29,4 @@ def e_string(param):
 
 
 invertida = inverte_string('123')
-print(invertida)
+print('String invertida:', invertida)
