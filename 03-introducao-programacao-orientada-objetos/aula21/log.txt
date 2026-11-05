@@ -1,0 +1,3 @@
+Testando abstração das classes! - LogFileMixin
+ERRO: Erro! - LogFileMixin
+SUCESSO: Sucesso! - LogFileMixin
